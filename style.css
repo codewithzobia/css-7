@@ -1,4 +1,4 @@
-/* imp! CSS RESET */
+
 
 *{
     margin: 0;
@@ -6,7 +6,6 @@
     box-sizing: border-box;
 }
 
-/* imp! HTML AND BODY CSS */
 
 html{
     font-size: 10px;
@@ -22,7 +21,6 @@ body{
     overflow-x: hidden;
 }
 
-/* imp! CSS VARIABLES */
 
 :root{
     /* imp! COLOR */
@@ -52,8 +50,6 @@ body{
     --common-padding-top-1: 12rem;
 
 }
-
-/*imp! COMMON CSS */
 
 .white-clr{
     color: var(--pure-white);
@@ -175,6 +171,9 @@ p{
     text-decoration: none;
     font-size: var(--fs-1-4);
 }
+.navbar-links:hover{
+    color: #726161 !important;
+}
 
 /*imp! SECTION-1 CSS */
 
@@ -272,7 +271,7 @@ p{
 
 .section-3__card{
     padding: 2rem;
-    box-shadow: 0 1rem 3rem 0 #b6883433;
+    box-shadow: 0 1rem 3rem 0 #55401a33;
     border-radius: 1rem;
     padding: 3rem 3rem;
     margin-bottom: 3rem;
