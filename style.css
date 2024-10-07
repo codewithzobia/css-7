@@ -139,6 +139,7 @@ p{
     justify-content: space-between;
     align-items: center;
     margin-top: 1rem;
+background-color: transparent;
 }
 
 .header-section__nav-mobile{
@@ -171,8 +172,8 @@ p{
     text-decoration: none;
     font-size: var(--fs-1-4);
 }
-.navbar-links:hover{
-    color: #726161 !important;
+.navbar__links li:hover{
+    color: #743a2b !important;
 }
 
 /*imp! SECTION-1 CSS */
@@ -191,9 +192,11 @@ p{
 
 .section-1__main-heading{
     font-size: var(--fs-h1);
-    font-weight: var(--fw-bold);
     line-height: 1.2;
     margin: 0.75rem 0 2.5rem;
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .section-1__button-white,.section-2-right__button-secondary {
@@ -207,7 +210,13 @@ p{
     font-weight: var(--fw-500);
     cursor: pointer;
 }
-
+.section-1__button-white:hover{
+background-color: #341d0a;
+color: white;
+cursor: pointer;
+transition: 0.4s;
+border: 2px solid rgb(160, 101, 47);
+}
 /*imp! SECTION-2 CSS */
 
 .section-2{
@@ -235,11 +244,17 @@ p{
     color: var(--secondary-color);
     font-size: 1.2rem;
     font-weight: var(--fw-light);
+    color: rgb(255, 255, 255) !important;
 }
-
+.section-2-right__h2{
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 .section-2-right__h4{
     font-weight: var(--fw-500);
     padding: 1.5rem 0;
+    color: white;
 }
 
 .section-2-right__p{
@@ -251,6 +266,11 @@ p{
     color: var(--pure-white);
 }
 
+.section-2-right__button-secondary:hover{
+    background-color: #341d0a;
+    transition: 0.4s;
+    cursor: pointer;
+}
 /*imp! SECTION-3 CSS */
 
 .section-3{
@@ -373,7 +393,9 @@ i.fa-star{
 .section-6{
     padding-top: var(--common-padding-top-1);
 }
-
+.sec-6-button:hover{
+    background-color: rgb(199, 142, 71);
+}
 .section-6__blog-div{
     display: flex;
     flex-wrap: wrap;
@@ -644,3 +666,4 @@ input:focus{
         font-size: 1.2rem;
     }    
 }
+
